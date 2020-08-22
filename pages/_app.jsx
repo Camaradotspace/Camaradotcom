@@ -4,6 +4,10 @@ import Head from "next/head";
 import "../styles.css";
 
 const order = {
+  "index.mdx": true,
+  "why.mdx": true,
+  "intro.mdx": true,
+  "getting-started.mdx": true,
   changelog: true, // use false to exclude directories and files
   guidelines: true, // you can omit the mdx extension
   components: true,
