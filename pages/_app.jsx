@@ -5,6 +5,7 @@ import "../styles.css";
 
 export default function App(props) {
   const { Component, pageProps } = props;
+
   return (
     <div style={{ width: "70%", margin: "0 auto" }}>
       <Head>
