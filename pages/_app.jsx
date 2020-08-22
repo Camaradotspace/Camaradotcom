@@ -3,6 +3,22 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import "../styles.css";
 
+const order = {
+  changelog: true, // use false to exclude directories and files
+  guidelines: true, // you can omit the mdx extension
+  components: true,
+  samplefolder: {
+    page1: true,
+    page2: true,
+    page3: true,
+    subfolder: {
+      page3: true,
+      page4: true,
+    },
+  },
+  // paths not present will be put at the end
+};
+
 export default function App(props) {
   const { Component, pageProps } = props;
 
@@ -20,12 +36,7 @@ export default function App(props) {
           <GithubLink key="0" url="https://github.com/remorses/dokz" />,
           <ColorModeSwitch key="1" />,
         ]}
-        sidebarOrdering={{
-          "index.mdx": true,
-          Documents_Group: {
-            "another.mdx": true,
-          },
-        }}
+        sidebarOrdering={order}
       >
         <Component {...pageProps} />
       </DokzProvider>

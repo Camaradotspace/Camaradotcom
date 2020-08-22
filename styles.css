@@ -1,13 +1,32 @@
+/* Main content area - middle pane */
 .css-1ps27e0 p {
   font-size: 1rem;
 }
 
+/* Table of content - right pane */
 .css-l4vti0 {
   font-size: 0.8125rem !important;
 }
 
+/* Side bar active link */
 .css-a0cuj2 {
   color: #fff !important;
-  background-color: #13aa52 !important;
+  background-color: #089743 !important;
+  /* background-color: #13aa52 !important; */
   /* background-color: none; */
+}
+
+ol,
+ul {
+  font-size: 1rem;
+}
+
+/* list items */
+.css-1baulvz {
+  display: none !important;
+}
+
+p a {
+  color: #089743 !important;
+  font-weight: 700 !important;
 }
