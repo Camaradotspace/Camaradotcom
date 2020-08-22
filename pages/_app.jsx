@@ -7,6 +7,11 @@ const order = {
   changelog: true, // use false to exclude directories and files
   guidelines: true, // you can omit the mdx extension
   components: true,
+  playbook: {
+    "tools-we-use.mdx": true,
+    "how-we-work.mdx": true,
+    "resources.mdx": true,
+  },
   samplefolder: {
     page1: true,
     page2: true,
