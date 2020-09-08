@@ -10,15 +10,16 @@
   },
   "dependencies": {
     "@chakra-ui/core": "0.x",
-    "@emotion/core": "^10.0.28",
+    "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
-    "dokz": "*",
-    "next": "latest",
+    "camara": "^0.1.4",
+    "dokz": "1.0.71",
+    "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "compose-function": "^3.0.3",
-    "babel-plugin-edit-this-page": "latest"
+    "babel-plugin-edit-this-page": "latest",
+    "compose-function": "^3.0.3"
   }
 }
